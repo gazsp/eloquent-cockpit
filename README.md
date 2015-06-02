@@ -7,8 +7,8 @@ Use Cockpit and Laravel Eloquent, together at last. Uses [jenssegers/laravel-mon
 ## Installation
 
 ```
-    composer require jenssegers/mongodb
-    composer require gazsp/eloquent-cockpit
+composer require jenssegers/mongodb
+composer require gazsp/eloquent-cockpit
 ```
 
 
