@@ -4,10 +4,17 @@
     "require": {
         "jenssegers/mongodb": "dev-master"
     },
+    "license" : "MIT",
+    "autoload": {
+        "psr-0": {
+            "Gazsp\\EloquentCockpit": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Gary Pearman",
-            "email": "gpearman@gmail.com"
+            "email": "gpearman@gmail.com",
+            "homepage": "http://red-robot.co.uk"
         }
     ]
 }
