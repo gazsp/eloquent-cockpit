@@ -6,10 +6,24 @@ Use Cockpit and Laravel Eloquent, together at last. Uses [jenssegers/laravel-mon
 
 ## Installation
 
+**There's no composer package on Packagist yet, so you'll need to add the following to your composer.json file:
+
+```json
+"repositories": [
+    {
+        "url": "git@github.com:gazsp/eloquent-cockpit.git",
+        "type": "git"
+    }
+],
+```
+
+then...
+
 ```
     composer require jenssegers/mongodb
     composer require gazsp/eloquent-cockpit
 ```
+
 
 ### Lumen
 
@@ -21,6 +35,7 @@ $app->withFacades();
 $app->register('Jenssegers\Mongodb\MongodbServiceProvider');
 
 ```
+
 
 ### Laravel
 
