@@ -1,2 +1,3 @@
-# cockpit-eloquent
-Use Cockpit and Laravel Eloquent together
+# eloquent-cockpit
+
+Use Cockpit and Laravel Eloquent, together at last.
