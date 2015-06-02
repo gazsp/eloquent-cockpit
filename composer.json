@@ -1,0 +1,13 @@
+{
+    "name": "gazsp/eloquent-cockpit",
+    "description": "Use Laravel Eloquent and Cockpit together",
+    "require": {
+        "jenssegers/mongodb": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Gary Pearman",
+            "email": "gpearman@gmail.com"
+        }
+    ]
+}
